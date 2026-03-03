@@ -8,4 +8,4 @@ console.log(process.arch);   //Architecture - how may bits you are using
 //arm64 
 //ia32
 
-console.log(process.version);
+console.log(process.version);  //Node version
