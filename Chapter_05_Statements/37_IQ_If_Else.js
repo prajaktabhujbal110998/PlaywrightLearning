@@ -10,3 +10,4 @@ if(null)  console.log("Won't print") // null = falsy
 if(undefined)  console.log("Won't print") // undefined = falsy
 if(NaN)  console.log("Won't print") // NaN = falsy
 if(0)  console.log("Won't print") // 0 = falsy
+

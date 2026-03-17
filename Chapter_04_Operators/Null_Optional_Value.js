@@ -7,3 +7,4 @@ let val2 = null ?? "default"; // "default" ?? Nullish Coalescing(Optional Value 
 val = "Which Milk? ---> " + val;
 console.log(val);
 //Very useful in test data handling
+

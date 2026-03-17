@@ -5,3 +5,4 @@ console.log(typeof true); //boolean
 console.log(typeof undefined); //undefined
 console.log(typeof null); //object (this is a known bug in JavaScript)
 console.log(typeof []); //object
+

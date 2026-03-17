@@ -20,3 +20,4 @@ if (score >= 90 && score <= 100) {
 } else {
     console.log("Invalid score. Please enter a score between 0 and 100.");
 }
+

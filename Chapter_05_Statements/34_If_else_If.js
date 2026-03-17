@@ -7,3 +7,4 @@ if (age > 25) {
 } else {
     console.log("You are not older than 25.");
 }
+
