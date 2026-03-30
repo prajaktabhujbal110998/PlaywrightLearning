@@ -11,7 +11,7 @@
 // - 500 → "FAIL - Internal Server Error: Backend issue"
 // - Any other → "UNKNOWN - Unhandled status code"
 
-StatusCode = 301;
+StatusCode = 401;
 if (StatusCode === 200) {
     console.log("StatusCode:", StatusCode, "Result:", "PASS - OK: Request successful");
 } else if (StatusCode === 201) {
