@@ -1,0 +1,34 @@
+/**Write a program that calculates and displays the letter grade for a given numerical score (e.g., A, B, C, D, or F) based on the following grading scale:
+A: 90-100
+B: 80-89
+C: 70-79
+D: 60-69
+F: 0-59**/
+
+let score = -1; // You can change this value to test with different scores
+
+if(typeof score !== "number")    { //Write this code before all the if else statement because if the input is not a number then it will not execute the code and it will give an error}
+    console.log("Invalid input. Please enter a numerical score.");
+    return;
+}   
+
+if(score < 0 || score > 100) {   //Write this code before all the if else statement because if the input is not in the range of 0 to 100 then it will not execute the code and it will give an error}
+    console.log("Invalid score. Please enter a score between 0 and 100.");
+    return;
+}
+
+if (score >= 90 && score <= 100) {
+    console.log("Grade: A");
+} else if (score >= 80 && score < 90) {
+    console.log("Grade: B");
+}   else if (score >= 70 && score < 80) {
+    console.log("Grade: C");
+}   else if (score >= 60 && score < 70) {
+    console.log("Grade: D");
+} else if (score >= 0 && score < 60) {
+    console.log("Grade: F");
+} else {
+    console.log("Invalid score. Please enter a score between 0 and 100.");
+}
+console.log("Score:", score);
+
