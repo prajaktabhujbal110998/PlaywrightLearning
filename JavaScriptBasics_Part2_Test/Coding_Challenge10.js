@@ -12,3 +12,5 @@ const tests = [
     { name: "true is truthy", expected: true, actual: true },
     { name: "Failure example", expected: 10, actual: 20 }
 ];
+
+//Adding comment
