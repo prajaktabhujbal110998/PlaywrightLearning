@@ -4,3 +4,11 @@
 
 
 
+// Define test cases
+const tests = [
+    { name: "5 === 5", expected: 5, actual: 5 },
+    { name: "'5' == 5", expected: 5, actual: '5' },
+    { name: "3 < 5", expected: true, actual: 3 < 5 },
+    { name: "true is truthy", expected: true, actual: true },
+    { name: "Failure example", expected: 10, actual: 20 }
+];
